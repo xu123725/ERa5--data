@@ -1,0 +1,44 @@
+## Python
+__pycache__/
+*.py[cod]
+*.pyd
+.Python
+.venv/
+venv/
+ENV/
+env/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.cache/
+
+## 打包/构建产物（PyInstaller 等）
+build/
+dist/
+*.spec.bak
+
+## IDE/系统文件
+.idea/
+.vscode/
+*.log
+Thumbs.db
+Desktop.ini
+
+## 项目过程文件（TRAE 生成的中间痕迹）
+.superpowers/
+
+## 本地 Git 备份（避免误提交）
+.git_backup_*/
+
+## 气象数据与大文件（建议不要直接进 Git）
+*.nc
+*.nc4
+*.grib
+*.grb
+*.tif
+*.tiff
+*.zip
+*.7z
+*.rar
+data/
+output/
